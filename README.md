@@ -96,3 +96,17 @@ sudo ./permfixUbuntu.sh
 
 Open up a web browser and visit http://localhost to view the site as hosted on your
 own machine.
+
+# Sass
+
+## Install
+
+```
+npm install -g sass
+```
+
+## Watch scss sources
+
+```
+sass --watch scss:css-compiled --style compressed
+```
