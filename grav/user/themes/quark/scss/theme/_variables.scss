@@ -8,6 +8,7 @@ $title-font-family: $base-font-family, $fallback-font-family !default;
 
 // Header
 $header-height-large: 4rem;
+//$header-height-large: 6rem;
 $header-height-small: 2.3rem;
 $header-color-dark: #222;
 $header-text-light: $light-color;
@@ -15,6 +16,7 @@ $header-text-dark: darken($dark-color, 15%);
 
 // Dropdown Menu
 $dropmenu-bg: $light-color;
+//$dropmenu-bg: green;
 $dropmenu-hover-text: $primary-color;
 $dropmenu-horiz-padding: 20px;
 $dropmenu-vert-padding: 7px;
@@ -22,7 +24,7 @@ $dropmenu-child-padding: 10px;
 $dropmenu-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 
 // Mobile Menu
-$mobile-color-main: $primary-color;
+$mobile-color-main: $text-on-primary-color;
 $mobile-color-active: #FFF;
 $mobile-color-link: #FFF;
 $mobile-button-height: 24px;

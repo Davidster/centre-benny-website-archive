@@ -7,41 +7,21 @@
   font-size: 0.7rem;
   font-weight: 700;
 
-  background: $light-color;
+  background: $primary-color;
   color: $dark-color;
 
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+
   a {
-    color: $dark-color;
+    color: $text-on-primary-color;
+
+    &.active, &:hover {
+       color: $text-on-secondary-color !important;
+    }
   }
 
   .logo svg path {
     fill: $header-color-dark;
-  }
-
-  .header-dark &:not(.scrolled) {
-    background: $header-color-dark;
-    color: $light-color;
-    a {
-      color: rgba($light-color, 0.7) !important;
-    }
-    a.active {
-      color: $light-color !important;
-    }
-    .dropmenu ul ul a {
-        color: $dark-color !important;
-    }
-    .logo svg path {
-      fill: $light-color;
-    }
-  }
-
-  .header-dark.header-transparent &:not(.scrolled) {
-    background: rgba(#000, 0.05);
-  }
-
-  .header-transparent &:not(.scrolled) {
-    background: rgba(#fff, 0.05);
-    //border-bottom: 0 !important;
   }
 
   .navbar-section {

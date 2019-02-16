@@ -10,6 +10,10 @@
 @import 'theme/mobile';
 @import 'theme/animation';
 
+//David's custom scss
+@import 'template/_custom.scss';
+@import 'template/_social-icons.scss';
+
 @import 'theme/header';
 @import 'theme/footer';
 @import 'theme/menu';
