@@ -1,0 +1,11 @@
+email: joshuadean.rosenberg@gmail.com
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+fullname: 'Yung Tweak'
+title: ClogChamp
+state: enabled
+hashed_password: $2y$10$R0B3LHgN58oKs94sFIY.eehmE7Tx3ZUjJsJy/8aSMqJmhpYE5hnnq
