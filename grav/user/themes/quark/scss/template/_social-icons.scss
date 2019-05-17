@@ -3,12 +3,12 @@
 /* Wrapper */
 .icon-button {
 	background-color: white;
-	border-radius: 2.6rem;
+	border-radius: 3rem;
 	cursor: pointer;
 	display: inline-block;
-	font-size: 1.3rem;
-	height: 2.6rem;
-	line-height: 2.6rem;
+	font-size: 2rem;
+	height: 3rem;
+	line-height: 3rem;
 	margin: 8px;
 	position: relative;
 	text-align: center;
@@ -16,7 +16,7 @@
 	   -moz-user-select: none;
 	    -ms-user-select: none;
 	        user-select: none;
-	width: 2.6rem;
+	width: 3rem;
 }
 
 /* Circle */
@@ -35,26 +35,26 @@
 	width: 0;
 }
 .icon-button:hover span {
-	width: 2.6rem;
-	height: 2.6rem;
-	border-radius: 2.6rem;
-	margin: -1.3rem;
+	width: 3rem;
+	height: 3rem;
+	border-radius: 3rem;
+	margin: -1.5rem;
 }
 
 /* Icons */
 .icon-button i {
 	background: none;
 	color: white;
-	height: 2.6rem;
+	height: 3rem;
 	left: 0;
-	line-height: 2.6rem;
+	line-height: 3rem;
 	position: absolute;
 	top: 0;
 	-webkit-transition: all 0.3s;
 	   -moz-transition: all 0.3s;
 	     -o-transition: all 0.3s;
 	        transition: all 0.3s;
-	width: 2.6rem;
+	width: 3rem;
 	z-index: 10;
         text-decoration: none;
 }
@@ -64,12 +64,17 @@
         font-size: 3rem;
         height: 4rem;
         width: 4rem;
-
         i {
             height: 4rem;
             width: 4rem;
             line-height: 4rem;
         }
+				&:hover span {
+					width: 4rem;
+					height: 4rem;
+					border-radius: 4rem;
+					margin: -2rem;
+				}
     }
 }
 
@@ -123,9 +128,6 @@
 	color: #cb2027;
 }
 
-
-
-
 .icon-button:hover .icon-twitter,
 .icon-button:hover .icon-facebook,
 .icon-button:hover .icon-google-plus,
@@ -134,38 +136,6 @@
 .icon-button:hover .fa-youtube,
 .icon-button:hover .fa-pinterest {
 	color: white;
-}
-
-@media all and (max-width: 680px) {
-  .icon-button {
-    border-radius: 1.6rem;
-    font-size: 0.8rem;
-    height: 1.6rem;
-    line-height: 1.6rem;
-    width: 1.6rem;
-  }
-
-  .icon-button:hover span {
-    width: 1.6rem;
-    height: 1.6rem;
-    border-radius: 1.6rem;
-    margin: -0.8rem;
-  }
-
-  /* Icons */
-  .icon-button i {
-	  height: 1.6rem;
-	  line-height: 1.6rem;
-	  width: 1.6rem;
-  }
-  body {
-
-	  padding: 10px;
-  }
-  .pinterest {
-   display: none; 
-  }
-
 }
 
 }
