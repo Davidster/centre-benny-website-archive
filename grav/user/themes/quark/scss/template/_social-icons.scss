@@ -59,24 +59,24 @@
         text-decoration: none;
 }
 
-@media screen and (max-width: 840px) {
-    .icon-button {
-        font-size: 3rem;
-        height: 4rem;
-        width: 4rem;
-        i {
-            height: 4rem;
-            width: 4rem;
-            line-height: 4rem;
-        }
-				&:hover span {
-					width: 4rem;
-					height: 4rem;
-					border-radius: 4rem;
-					margin: -2rem;
-				}
-    }
-}
+// @media screen and (max-width: 840px) {
+//     .icon-button {
+//         font-size: 3rem;
+//         height: 4rem;
+//         width: 4rem;
+//         i {
+//             height: 4rem;
+//             width: 4rem;
+//             line-height: 4rem;
+//         }
+// 				&:hover span {
+// 					width: 4rem;
+// 					height: 4rem;
+// 					border-radius: 4rem;
+// 					margin: -2rem;
+// 				}
+//     }
+// }
 
 
 

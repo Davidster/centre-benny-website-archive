@@ -5,7 +5,7 @@ title: Programs
 <h2 style="text-align: center">Our Programs</h2>
 
 <div data-tabs class="tabs columns">
-    <div class="tabItem column col-md-6 col-4"><a data-tab href="#gym">
+    <div class="tabItem column col-md-6 col-4"><a data-tab class="active" href="#gym">
         Gym Programs
     </a></div>
   <div class="tabItem column col-md-6 col-4"><a data-tab href="#camps">
